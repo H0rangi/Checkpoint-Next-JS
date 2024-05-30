@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 import { NavbarDark } from "@/components/navbar";
 import { ProfileCard } from "@/components/Card";
-import { FooterWithLogo } from "@/components/footer";
+import { SimpleFooter } from "@/components/footer";
 
 
 export const metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
        <NavbarDark/>
        <ProfileCard/>
-       <FooterWithLogo/>
+       <SimpleFooter/>
         {children}</body>
     </html>
   );
