@@ -1,8 +1,9 @@
-export default function HomePage() {
+import HomePage from "@/components/Home";
+
+export default function Home() {
   return (
-      <div>
-          <h1>Welcome to My Portfolio</h1>
-          <p>This is the homepage of my portfolio.</p>
-      </div>
+    <div>
+      <HomePage />
+    </div>
   );
 }

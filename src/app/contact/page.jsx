@@ -1,12 +1,10 @@
 
-import { NavbarDark } from '@/components/navbar';
 import { ProfileCard } from '@/components/Card';
 import { SimpleFooter } from '@/components/footer';
 
 export default function ContactPage() {
   return (
     <div>
-      <NavbarDark />
       
      
       <div className="container mx-auto mt-8">
@@ -14,9 +12,7 @@ export default function ContactPage() {
       
       </div>
 
-      <ProfileCard />
 
-      <SimpleFooter />
     </div>
   );
 }

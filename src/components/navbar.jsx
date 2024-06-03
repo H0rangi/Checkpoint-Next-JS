@@ -1,5 +1,6 @@
 "use client";
 import { Navbar, Typography, Button, Input } from "@material-tailwind/react";
+import Link from "next/link";
 
 export function NavbarDark() {
   return (
@@ -19,22 +20,25 @@ export function NavbarDark() {
         </Typography>
         <div className="ml-auto flex gap-1 md:mr-4">
           <div>
-          <a href="/">Home</a>
-            <Button variant="text" color="black">
-              Home
-            </Button>
+            <Link href="/">
+              <Button variant="text" color="black">
+                Home
+              </Button>
+            </Link>
           </div>
           <div>
-          <a href="/contact">Contact</a>
-            <Button variant="text" color="black">
-              Contact
-            </Button>
+            <Link href="/contact">
+              <Button variant="text" color="black">
+                Contact
+              </Button>
+            </Link>
           </div>
           <div>
-          <a href="/projects">Projects</a>
-            <Button variant="text" color="black">
-              Projects
-            </Button>
+            <Link href="/projects">
+              <Button variant="text" color="black">
+                Projects
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

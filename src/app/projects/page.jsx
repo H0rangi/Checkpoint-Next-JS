@@ -1,11 +1,10 @@
-import { NavbarDark } from '@/components/navbar';
+import { NavbarDark } from '@/components/Navbar';
 import { ProfileCard } from '@/components/Card';
 import { SimpleFooter } from '@/components/footer';
 
 export default function ProjectsPage() {
   return (
     <div>
-      <NavbarDark />
       
      
       <div className="container mx-auto mt-8">
@@ -13,9 +12,7 @@ export default function ProjectsPage() {
       
       </div>
 
-      <ProfileCard />
 
-      <SimpleFooter />
     </div>
   );
 }

@@ -1,12 +1,11 @@
 
-import { NavbarDark } from '@/components/navbar';
+import { NavbarDark } from '@/components/Navbar';
 import { ProfileCard } from '@/components/Card';
 import { SimpleFooter } from '@/components/footer';
 
 export default function HomePage() {
   return (
     <div>
-      <NavbarDark />
       
      
       <div className="container mx-auto mt-8">
@@ -16,7 +15,6 @@ export default function HomePage() {
 
       <ProfileCard />
 
-      <SimpleFooter />
     </div>
   );
 }
