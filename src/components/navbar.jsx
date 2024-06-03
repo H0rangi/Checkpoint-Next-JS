@@ -27,16 +27,16 @@ export function NavbarDark() {
             </Link>
           </div>
           <div>
-            <Link href="/contact">
+            <Link href="/projects">
               <Button variant="text" color="black">
-                Contact
+                Projects
               </Button>
             </Link>
           </div>
           <div>
-            <Link href="/projects">
+            <Link href="/contact">
               <Button variant="text" color="black">
-                Projects
+                Contact
               </Button>
             </Link>
           </div>
