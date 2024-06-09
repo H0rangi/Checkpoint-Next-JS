@@ -27,9 +27,9 @@ export function ContactSection14() {
         </Typography>
         <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start">
           <img
-            src="/image/map.svg"
-            alt="map"
-            className="w-full h-full lg:max-h-[510px]"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Forig00.deviantart.net%2F4337%2Ff%2F2017%2F199%2F8%2Fb%2Fsagiri_dance2_by_kaine24-dbgrb2q.png&f=1&nofb=1&ipt=f06130c34f752af125515fe23502c4b39b6e16018f22f78bc4cca64e0961cca3&ipo=images"
+            alt="gif"
+            
           />
           <form
             action="#"
